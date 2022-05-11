@@ -19,7 +19,7 @@ function createGalleryCardsMarkup(galleryItems) {
   return markup;
 }
 
-const lightbox = new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.gallery a', {
   // captions: true,
   // captionSelector: 'img',
   // captionType: 'attr',
